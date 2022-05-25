@@ -63,3 +63,11 @@ button:hover{
     transition: all .5s ease;
 
 }
+
+footer{
+    font-size: 2rem;
+    font-family: 'Odibee Sans', cursive;
+    padding: 30px;
+    text-align: center;
+   
+}

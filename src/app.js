@@ -23,7 +23,8 @@ if (/.(mp4)$/i.test(data.url)) {
     video.setAttribute('src',data.url);
     video.setAttribute('alt',data.fileSizeBytes);
     video.setAttribute('Autoplay',true)
-    video.setAttribute('Loop',true)
+    video.setAttribute('Loop',true);
+    video.setAttribute('muted',true);
     carta.appendChild(video);
     contenedor.appendChild(carta);
 }
